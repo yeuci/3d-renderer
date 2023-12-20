@@ -77,9 +77,6 @@ void update(void) {
 }
 
 void clear_color_buffer(uint32_t color) {
-  //for (int i = 0; i < (window_width * window_height); i++) {
-  //  color_buffer[i] = color;
-  //}
   for (int row = 0; row < window_height; row++) {
     for (int col = 0; col < window_width; col++) {
       color_buffer[(window_width * row) + col] = color;
