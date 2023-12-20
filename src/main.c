@@ -103,9 +103,8 @@ void render(void) {
   //SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
   //SDL_RenderClear(renderer);
 
-  //render_color_buffer();
-  clear_color_buffer(0xFFFFFF00);
   render_color_buffer();
+  clear_color_buffer(0xFFFFFF00);
 
   SDL_RenderPresent(renderer);
 }
